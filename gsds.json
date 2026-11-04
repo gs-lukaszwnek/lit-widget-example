@@ -1,0 +1,9 @@
+{
+  "cliVersion": "1.10.0",
+  "templateVersion": 1,
+  "dedupe": {
+    "exclude": [
+      "@angular/*"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "widgets": [
+    {
+      "type": "hello-lit",
+      "version": "1.0.0",
+      "title": "Hello Lit",
+      "description": "A widget built with Vanilla JS and the Widget SDK.",
+      "category": "custom",
+      "imageSrc": "widgets/hello-lit/thumbnail.png",
+      "source": {
+        "path": "widgets/hello-lit/dist",
+        "entry": "index.html"
+      },
+      "configuration": {
+        "properties": [
+          {
+            "name": "title",
+            "type": "text",
+            "label": "Title",
+            "defaultValue": "Hello Lit",
+            "rules": {
+              "required": true
+            }
+          },
+          {
+            "name": "description",
+            "type": "text",
+            "label": "Description",
+            "defaultValue": "A widget built with Vanilla JS and the Widget SDK."
+          }
+        ]
+      },
+      "defaultConfig": {
+        "title": "Hello Lit",
+        "description": "A widget built with Vanilla JS and the Widget SDK."
+      }
+    }
+  ]
+}

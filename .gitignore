@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+
+# Gainsight Developer Studio runtime
+.gsds/
+
+# Staging files and lock files from an interrupted registry write. `gsds` removes its own on
+# failure, but a SIGKILL mid-write kills it before it can, and committing either is never wanted.
+*.tmp
+*.lock
+
+# Secrets
+.env
+.env.*
+
+# Do NOT ignore widgets/*/dist/ — the platform serves widgets from those built directories,
+# so `dist/` under each widget must be committed. Run `gsds build` before committing to keep it fresh.
